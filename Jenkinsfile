@@ -11,9 +11,9 @@ pipeline {
 	stage ('upload war to nexus3') {
 	steps {
 	sh script 'mvn clean package'
+		}
 	}
-	}
-}
+   }
 }
 
 
